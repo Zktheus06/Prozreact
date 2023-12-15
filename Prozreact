@@ -1,0 +1,16 @@
+// src/App.js
+import React from 'react';
+import './App.css';
+import Saudacao from './Saudacao';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Saudacao mensagem="Olá, seja bem-vindo!" />
+      </header>
+    </div>
+  );
+}
+
+export default App
